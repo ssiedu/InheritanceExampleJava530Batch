@@ -1,5 +1,5 @@
 public class A {
     public void show(){
-        System.out.println("Welcome User");
+        System.out.println("Show from A");
     }
 }

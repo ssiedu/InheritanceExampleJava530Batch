@@ -1,12 +1,16 @@
-public class B {
+public class B extends A {
     
-    A ob =new A();
-    public void display(){
-        ob.show();
+    public void disp(){
+        System.out.println("Disp of B");
+        show();
+    }
+    
+    public void show(){
+        System.out.println("Show from B");
     }
     
     public static void main(String args[]){
         B ob=new B();
-        ob.display();
+        ob.disp();
     }
 }
