@@ -1,9 +1,12 @@
 public class B extends A {
     
+    int x=20;
+    
     public void disp(){
-        System.out.println("Disp of B");
-        show();
+        //System.out.print(super.x);
+        super.show();
     }
+   
     
     public void show(){
         System.out.println("Show from B");
