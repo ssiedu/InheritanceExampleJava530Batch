@@ -2,10 +2,6 @@ public class Stud {
     int rno;
     String name;
     
-    public String toString(){
-        return "DAVV-STUDENT";
-    }
-    
     public void result(int per){
         if(per>=33){
             System.out.println("Stud Passed "+per);
