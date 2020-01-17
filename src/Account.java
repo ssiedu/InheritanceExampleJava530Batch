@@ -16,4 +16,8 @@ public abstract class Account {
     public void showAccountDetails(){
         System.out.println(ano+","+name+","+balance);
     }
+    
+    public static void main(String args[]){
+        System.out.println("Just To Check");
+    }
 }
