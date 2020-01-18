@@ -1,3 +1,4 @@
+package university;
 public class Stud {
     int rno;
     String name;

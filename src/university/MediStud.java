@@ -1,3 +1,4 @@
+package university;
 public class MediStud extends Stud{
     int prof;
     

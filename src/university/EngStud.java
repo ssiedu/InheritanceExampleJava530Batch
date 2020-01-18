@@ -1,3 +1,4 @@
+package university;
 public class EngStud extends Stud {
     String branch;
     int sem;

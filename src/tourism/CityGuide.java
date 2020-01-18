@@ -1,3 +1,4 @@
+package tourism;
 public class CityGuide {
     
     public static void info(CityInfo city){

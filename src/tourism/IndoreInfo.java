@@ -1,3 +1,4 @@
+package tourism;
 public class IndoreInfo implements CityInfo {
 
     public void showPoppulation() {
